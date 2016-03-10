@@ -27,7 +27,7 @@ public static enum SoundType {
 
 public enum Sound {
 	AMBIENT_CAVE("ambient.cave", "ambient.cave.cave", SoundType.AMBIENT), 
-	BLOCK_ANVIL_BREAK("block.anvil.break", "ambient.anil_land", SoundType.BLOCK),  
+	BLOCK_ANVIL_BREAK("block.anvil.break", "ambient.anvil_land", SoundType.BLOCK),  
 	BLOCK_ANVIL_DESTROY("block.anvil.destroy"), 
 	BLOCK_ANVIL_FALL("block.anvil.fall"), 
 	BLOCK_ANVIL_HIT("block.anvil.hit"), 
