@@ -27,14 +27,14 @@ public static enum SoundType {
 
 public enum Sound {
 	AMBIENT_CAVE("ambient.cave", "ambient.cave.cave", SoundType.AMBIENT), 
-	BLOCK_ANVIL_BREAK("block.anvil.break"), 
+	BLOCK_ANVIL_BREAK("block.anvil.break", "ambient.anil_land", SoundType.BLOCK),  
 	BLOCK_ANVIL_DESTROY("block.anvil.destroy"), 
 	BLOCK_ANVIL_FALL("block.anvil.fall"), 
 	BLOCK_ANVIL_HIT("block.anvil.hit"), 
-	BLOCK_ANVIL_LAND("block.anvil.land"), 
+	BLOCK_ANVIL_LAND("block.anvil.land", "random.anvil_lank", SoundType.BLOCK), 
 	BLOCK_ANVIL_PLACE("block.anvil.place"), 
 	BLOCK_ANVIL_STEP("block.anvil.step"), 
-	BLOCK_ANVIL_USE("block.anvil.use"), 
+	BLOCK_ANVIL_USE("block.anvil.use", "random_anvil_use", SoundType.BLOCK), 
 	BLOCK_BREWING_STAND_BREW("block.brewing_stand.brew"), 
 	BLOCK_CHEST_CLOSE("block.chest.close"), 
 	BLOCK_CHEST_LOCKED("block.chest.locked"), 
